@@ -1,0 +1,9 @@
+﻿
+
+npm install gulp -g
+
+WINDOWS ONLY run:
+npm install -g webpack webpack-dev-server typescript
+
+Install dependencies:
+npm install
