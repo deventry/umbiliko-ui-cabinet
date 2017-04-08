@@ -1,23 +1,22 @@
 ﻿import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 /* App Root */
 import { AppComponent } from './app.component';
 
 /* Feature Modules */
-//import { CoreModule } from './core/core.module';
-//import { AirlineModule } from './airline/airline.module';
 import { routing, appRoutingProviders } from './app.routing';
 
 @NgModule({
+    bootstrap: [AppComponent],
+    declarations: [AppComponent],
     imports: [
         BrowserModule,
-        //CoreModule.forRoot({ userName: 'Miss Marple' }),
+        NgxDatatableModule,
         routing
     ],
-    providers: [appRoutingProviders],
-    declarations: [AppComponent],
-    bootstrap: [AppComponent]
+    providers: [appRoutingProviders]
 })
 export class AppModule {
 }

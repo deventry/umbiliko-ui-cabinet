@@ -1,4 +1,7 @@
-﻿
+﻿https://github.com/swimlane/ngx-datatable
+https://github.com/angular/material2
+https://swimlane.gitbooks.io/ngx-datatable
+https://github.com/gallayl/angular2-odata
 
 npm install gulp -g
 
